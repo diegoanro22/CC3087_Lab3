@@ -22,7 +22,7 @@ fun main(){
 
     println(iceCream.eat())
 
-    println("La hamburgues a un 10% de descuento es: ${burger.discountedPrice(10.0)}")
+    println("La hamburguesa a un 10% de descuento tiene un precio de: ${burger.discountedPrice(10.0)}")
 }
 
 fun Food.discountedPrice(discountPercentage: Double): Double {
